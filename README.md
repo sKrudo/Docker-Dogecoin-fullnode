@@ -22,7 +22,7 @@ You only need to run one command to get it up and running:
 
 ```bash
 
-docker run -d -p 22556:22556 --name dogenode gxgow/dogenode
+docker run -d -p 22556:22556 --name dogenode iskrudo/dogenode:latest
 
 ```
 
