@@ -9,7 +9,7 @@ if [ ! -f ~/dogecoin-bin/bin/dogecoind ]; then
     if [ $? -eq 0 ]; then
         tar -xvf dogecoin.tar.gz
         ##Rename folder appropriately
-        mv dogecoin-1.14.4 dogecoin-bin
+        mv dogecoin-1.14.5 dogecoin-bin
         ##Add dogecoind commands to PATH
         echo 'export PATH=$PATH:~/dogecoin-bin/bin/' > ~/.bashrc
         source ~/.bashrc
